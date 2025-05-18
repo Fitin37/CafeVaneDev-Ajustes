@@ -28,7 +28,13 @@ cd cafeteria-inventario-CafeVaneDev
 ```bash
 npm install
 ```
+npm i - lucide-react
 
+npm i react-dom
+
+npm i react router-dom
+
+npm i sweetalert12
 ### 3. Corre el proyecto en modo desarrollo
 
 ```bash
