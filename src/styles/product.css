@@ -1,0 +1,86 @@
+.product-detail-wrapper {
+  padding: 2rem;
+}
+
+.top-buttons {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.back-btn {
+  background-color: #eee;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.back-btn:hover {
+  background-color: #ddd;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.rotatable-image {
+  width: 280px;
+  height: auto;
+  object-fit: contain;
+  transition: transform 0.3s ease;
+}
+
+.rotate-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #333;
+}
+
+.info-section {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.info-section h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.info-section p {
+  font-size: 1.1rem;
+}
+
+.buy-btn {
+  background-color: #00b3b3;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  width: fit-content;
+}
+
+.buy-btn:hover {
+  background-color: #008c8c;
+}
